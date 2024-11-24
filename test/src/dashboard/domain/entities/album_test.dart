@@ -8,7 +8,7 @@ void main() {
   late List<Map<String, dynamic>> jsonData;
 
   setUp(() async {
-    jsonData = await loadJson('albums.json'); // Ensure the JSON file is in the correct path.
+    jsonData = await loadJson('albums.json');
   });
 
   group('Album Tests', () {
